@@ -16,7 +16,7 @@ public class VirtualPet {
       System.out.println("Welcome to Virtual Pet Simulator!");
       System.out.println("What is your pet's name?");
       name = input.nextLine();
-      System.out.println("Your pet's name is " + name);
+      System.out.println("Your pet's name is " + name + "\n");
 
       // TODO 1:
       // Create a while loop that continues while:
