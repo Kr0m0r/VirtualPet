@@ -79,7 +79,7 @@ public class VirtualPet {
             System.out.println("You gave " + name + " a bath.\n");
          }
          else if(choice == 6) {
-            System.out.println(name + " learnt how to speak English! You both went viral and got rich.\n" + name + " couldn't have had a better life.");
+            System.out.println(name + " learnt how to speak English! You both went viral and got rich.\n" + name + " couldn't have a better life.");
             happiness = 99;
             hunger = 0;
             energy = 99;
@@ -98,7 +98,7 @@ public class VirtualPet {
       if(choice == 5) {
          System.out.println("Goodbye!");
       }
-      if(energy <= 0) {
+      else if(energy <= 0) {
          System.out.println("--------------------------");
          System.out.println("Happiness: " + happiness);
          System.out.println("Hunger: " + hunger);
